@@ -19,5 +19,5 @@ Game over condition when the player falls off the screen.
 I created the game that players can keep jumping on platforms without falling to increase the score.  
 
 *5. What was hard or challenging about using other people’s code?*  
-It takes time to figure out the code and implement differnt functions to my design, especially the [Collision](https://p5play.org/learn/sprite.html?page=5). 
+It took time to understand the code and implement differnt functions to my design, especially the [Collision](https://p5play.org/learn/sprite.html?page=5). 
 
