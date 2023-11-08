@@ -1,60 +1,23 @@
-# p5.js Template
+*1. Which library(ies) did you choose? Include link(s).*  
+[p5play](https://p5play.org/learn/index.html)
 
-This is a README file that can be used to describe and document your assignment.
+*2. What was your original idea?*  
+I'd like to create a simple version of Doodle Jump that allow the player to jump on ascending platforms.  
 
-Markdown Cheatsheet (from [https://www.markdownguide.org/cheat-sheet/](https://www.markdownguide.org/cheat-sheet/)):
+![Doodle Jump](./DJ.png)
 
----
----
+*3. What did you try?*  
+Player and platform [creation](https://p5play.org/learn/sprite.html?page=0).
+[Gravity](https://p5play.org/learn/sprite.html?page=1) affecting the player.
+[Movement](https://p5play.org/learn/sprite.html?page=3) controls with the left and right arrow keys.
+[Collision](https://p5play.org/learn/sprite.html?page=5) detection between the player and the platforms to create a jumping effect.
+Scrolling the platforms downward when the player reaches a certain height.
+Score increment as the player moves up.
+Game over condition when the player falls off the screen.
 
-# Heading1
-## Heading2
-### Heading3
-#### Heading4
-##### Heading5
-###### Heading6
+*4. What did you end up implementing?*  
+I created the game that players can keep jumping on platforms without falling to increase the score.  
 
-**bold text**
+*5. What was hard or challenging about using other people’s code?*  
+It takes time to figure out the code and implement differnt functions to my design, especially the [Collision](https://p5play.org/learn/sprite.html?page=5). 
 
-*italicized text*
-
-~~strikethrough text~~
-
-Ordered List:
-1. First item
-2. Second item
-3. Third item
-
-Unordered List:
-- First item
-- Second item
-- Third item
-
-`short code block`
-
-```
-extended code block
-fun() {
-  return 0
-}
-```
-
-Link:  
-[linked text](https://www.example.com)
-
-
-Image with url:  
-![image description](https://dm-gy-6063-2023f-d.github.io/assets/homework/02/clark-espaco-modulado-00.jpg)
-
-
-Image on repo:  
-![image description](./file-name.jpg)
-
-
-To start a new line, add two spaces at the end of a line, like this:  
-this is a new line.
-
-
-To start a new paragraph, leave an empty line between two lines of text.
-
-This is a new paragraph.

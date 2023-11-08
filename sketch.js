@@ -5,7 +5,7 @@ let jumpForce = -10;
 let score = 0;
 let left = false;
 let right = false;
-let platformBuffer = 150; // 控制平台生成的最小间隔
+let platformBuffer = 140;
 
 function setup() {
   createCanvas(400, 600);
@@ -19,13 +19,18 @@ function setup() {
 
   // Generate some platforms off the screen to start
   for (let i = 1; i < 5; i++) {
-    let plat = createSprite(random(50, width - 50), height - i * platformBuffer, 100, 20);
+    let plat = createSprite(
+      random(50, width - 50),
+      height - i * platformBuffer,
+      100,
+      20
+    );
     platforms.push(plat);
   }
 }
 
 function draw() {
-  background(150);
+  background("pink");
 
   // Apply gravity to player
   player.velocity.y += gravity;
@@ -76,7 +81,7 @@ function draw() {
   // Check for game over
   if (player.position.y > height) {
     noLoop();
-    console.log("Game Over! Score: " + score);
+    alert("Game Over! Score: " + score);
   }
 
   // Draw all sprites
